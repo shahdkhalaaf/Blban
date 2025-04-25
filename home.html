@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="home.css">
+        <script src="home.js"></script>
+        <link href="image/new logo.png" rel="icon">
+    </head>
+   
+    <body>
+        <header>
+            <div class="nav">
+                <img src="image/new logo.png" alt="logo belaban" width="80px">
+                
+                <nav>
+                    <a class="navbtn" href="home.html">Home</a>
+                    <a class="navbtn" href="Login.html">Login</a>
+                    <a class="navbtn" href="About Us.html">About us</a>
+                </nav>
+        
+                <div class="search-bar">
+                    <form>
+                        <input type="search" placeholder="Search products...">
+                        <input type="submit" value="Go" id="Go">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <main class="product-grid">
+            <div class="product-card">
+                <img src="image/chese bom.jpg" alt="Dubai cheese bome">
+                <p>Dubai cheese bome <span class="Price">90</span></p>
+                <button id="cart">Add To Cart</button>
+            </div>
+        
+            <div class="product-card">
+                <img src="image/habet.jpg" alt="Habet Dubai">
+                <p>Habet Dubai <span class="Price">200</span></p>
+                <button id="cart">Add To Cart</button>
+            </div>
+        
+            <div class="product-card">
+                <img src="image/creb.jpg" alt="Crepe Dubai">
+                <p>Crepe Dubai <span class="Price">100</span></p>
+                <button id="cart">Add To Cart</button>
+            </div>
+        
+            <div class="product-card">
+                <img src="image/qashtouta.jpg" alt="Qashtouta">
+                <p>Qashtouta <span class="Price">55</span></p>
+                <button id="cart">Add To Cart</button>
+            </div>
+        
+            <div class="product-card">
+                <img src="image/Koshary.jpg" alt="Koshari">
+                <p>Koshari <span class="Price">80</span></p>
+                <button id="cart">Add To Cart</button>
+            </div>
+        
+            <div class="product-card">
+                <img src="image/kabsa.jpg" alt="Kabsa">
+                <p>Kabsa <span class="Price">70</span></p>
+                <button id="cart">Add To Cart</button>
+            </div>
+        
+            <div class="product-card">
+                <img src="image/roz blaban.png" alt="Roz blaban">
+                <p>Roz blaban <span class="Price">60</span></p>
+                <button id="cart">Add To Cart</button>
+            </div>
+        
+            <div class="product-card">
+                <img src="image/om ali.jpg" alt="Om 3ali">
+                <p>Om 3ali <span class="Price">60</span></p>
+                <button id="cart">Add To Cart</button>
+            </div>
+            
+            <div class="custom-alert" id="customAlert">
+                <p id="alertMessage">Product added to cart!</p>
+                <button onclick="closeAlert()">OK</button>
+            </div>  
+        </main>
+        <footer>
+            <center>
+                <strong>Copy &copy; BLABAN </strong>
+            </center>
+        </footer>        
+    </body>
+</html>
